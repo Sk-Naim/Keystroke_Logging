@@ -83,8 +83,8 @@ The system captures keyboard interactions within the application window and stor
 
 ### key_log.json
 Stores structured data with timestamps:
-json
-
+'''json
+[
   {
         "event": "Pressed",
         "key": "Shift_L",
@@ -100,7 +100,7 @@ json
         "key": "W",
         "time": "21:33:49"
     },
-
+]
 
 ## ⚙️ **TECHNOLOGIES USED**
 

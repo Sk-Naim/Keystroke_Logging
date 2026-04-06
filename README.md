@@ -41,15 +41,16 @@ The system captures keyboard interactions within the application window and stor
 
 ---
 
-## 📂 Project Structure
-key-monitor-macos/
-├── main.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── logs/
-    ├── key_log.txt
-    └── key_log.json
+## 📁 Project Structure
+
+📦 keystroke_logging  
+ ┣ 📜 keystroke.py  
+ ┣ 📄 requirements.txt  
+ ┣ 📘 README.md  
+ ┣ 🚫 .gitignore  
+ ┗ 📂 logs  
+   ┣ 📄 key_log.txt  
+   ┗ 📄 key_log.json  
 
 
 ---
@@ -82,8 +83,8 @@ key-monitor-macos/
 
 ### key_log.json
 Stores structured data with timestamps:
-```json
-[
+json
+
   {
         "event": "Pressed",
         "key": "Shift_L",
@@ -99,34 +100,47 @@ Stores structured data with timestamps:
         "key": "W",
         "time": "21:33:49"
     },
-]
+
+
+## ⚙️ **TECHNOLOGIES USED**
+
+The project is built using the following technologies and libraries:
+
+- 🔹 **Python**  
+  **Core programming language** used to develop the application logic and functionality.
+
+- 🔹 **Tkinter**  
+  Used to design the **graphical user interface (GUI)** and handle keyboard events within the application window.
+
+- 🔹 **JSON**  
+  Enables **structured storage of keystroke data**, making it suitable for analysis and future processing.
+
+- 🔹 **OS Module**  
+  Handles **file system operations** such as creating directories and managing log files.
+
+- 🔹 **Datetime Module**  
+  Used to capture **accurate timestamps** for each key press and release event.
 
 ---
 
-## ⚙️ Technologies Used
+## 🔒 **SECURITY**
 
-- **Python** – Core programming language used to build the application  
-- **Tkinter** – GUI framework for creating the user interface and handling events  
-- **JSON** – Used to store structured keystroke data for analysis  
-- **OS Module** – Handles file and directory operations (log folder creation)  
-- **Datetime Module** – Captures timestamps for each key event  
+This application is designed with a strong focus on **safety and compliance**:
+
+- 🔐 Operates in **safe mode**, capturing keystrokes only within the active application window  
+- 🔐 Does **not require system-level permissions** such as Accessibility or Input Monitoring  
+- 🔐 Fully compliant with **macOS security and privacy policies**  
+- 🔐 Intended strictly for **educational and ethical use only**
 
 ---
 
-## 🔒 Security & Limitations
+## ⚠️ **LIMITATIONS**
 
-### 🔐 Security
+Due to operating system restrictions and design choices:
 
-- The application operates in **safe mode**, capturing keystrokes only within the active window  
-- No system-level permissions (like Accessibility or Input Monitoring) are required  
-- Ensures compliance with macOS security and privacy policies  
-- Designed strictly for **educational and ethical use**  
-
-### ⚠️ Limitations
-
-- Cannot capture keystrokes outside the application window  
-- Does not support global/system-wide keylogging (restricted by macOS)  
-- Requires the application window to be focused to detect input  
-- Not intended for monitoring without user awareness  
+- ⚠️ Cannot capture keystrokes outside the application window  
+- ⚠️ Does not support **global/system-wide keylogging**  
+- ⚠️ Requires the application window to be **focused** for input detection  
+- ⚠️ Not intended for **unauthorized monitoring or surveillance**
 
 ---

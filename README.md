@@ -2,8 +2,7 @@
 
 A modern GUI-based keyboard event monitoring system built using Python and Tkinter.  
 This application captures real-time key press and release events, logs them in structured formats, and provides a clean and responsive user interface.
-
-Designed specifically to work on macOS (M1/M2/M3), the application operates in a safe mode without requiring special system permissions.
+![UI](img/UI.png)
 
 ---
 
@@ -54,6 +53,49 @@ The system captures keyboard interactions within the application window and stor
 
 
 ---
+### ⚙️ **TECHNOLOGIES USED**
+
+The project is built using the following technologies and libraries:
+
+- 🔹 **Python**  
+  **Core programming language** used to develop the application logic and functionality.
+
+- 🔹 **Tkinter**  
+  Used to design the **graphical user interface (GUI)** and handle keyboard events within the application window.
+
+- 🔹 **JSON**  
+  Enables **structured storage of keystroke data**, making it suitable for analysis and future processing.
+
+- 🔹 **OS Module**  
+  Handles **file system operations** such as creating directories and managing log files.
+
+- 🔹 **Datetime Module**  
+  Used to capture **accurate timestamps** for each key press and release event.
+
+---
+
+## 🔒 **SECURITY**
+
+This application is designed with a strong focus on **safety and compliance**:
+
+- 🔐 Operates in **safe mode**, capturing keystrokes only within the active application window  
+- 🔐 Does **not require system-level permissions** such as Accessibility or Input Monitoring  
+- 🔐 Fully compliant with **macOS security and privacy policies**  
+- 🔐 Intended strictly for **educational and ethical use only**
+
+---
+
+## ⚠️ **LIMITATIONS**
+
+Due to operating system restrictions and design choices:
+
+- ⚠️ Cannot capture keystrokes outside the application window  
+- ⚠️ Does not support **global/system-wide keylogging**  
+- ⚠️ Requires the application window to be **focused** for input detection  
+- ⚠️ Not intended for **unauthorized monitoring or surveillance**
+
+---
+
 
 ## ▶️ Installation & Usage
 
@@ -103,45 +145,3 @@ Stores structured data with timestamps:
   }
 ]
 
-### ⚙️ **TECHNOLOGIES USED**
-
-The project is built using the following technologies and libraries:
-
-- 🔹 **Python**  
-  **Core programming language** used to develop the application logic and functionality.
-
-- 🔹 **Tkinter**  
-  Used to design the **graphical user interface (GUI)** and handle keyboard events within the application window.
-
-- 🔹 **JSON**  
-  Enables **structured storage of keystroke data**, making it suitable for analysis and future processing.
-
-- 🔹 **OS Module**  
-  Handles **file system operations** such as creating directories and managing log files.
-
-- 🔹 **Datetime Module**  
-  Used to capture **accurate timestamps** for each key press and release event.
-
----
-
-## 🔒 **SECURITY**
-
-This application is designed with a strong focus on **safety and compliance**:
-
-- 🔐 Operates in **safe mode**, capturing keystrokes only within the active application window  
-- 🔐 Does **not require system-level permissions** such as Accessibility or Input Monitoring  
-- 🔐 Fully compliant with **macOS security and privacy policies**  
-- 🔐 Intended strictly for **educational and ethical use only**
-
----
-
-## ⚠️ **LIMITATIONS**
-
-Due to operating system restrictions and design choices:
-
-- ⚠️ Cannot capture keystrokes outside the application window  
-- ⚠️ Does not support **global/system-wide keylogging**  
-- ⚠️ Requires the application window to be **focused** for input detection  
-- ⚠️ Not intended for **unauthorized monitoring or surveillance**
-
----

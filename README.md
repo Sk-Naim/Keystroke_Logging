@@ -6,7 +6,6 @@ This application captures real-time key press and release events, logs them in s
 <p align="center">
   <img src="UI.png" width="600"/>
 </p>
----
 
 ## 📌 Overview
 

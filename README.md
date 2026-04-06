@@ -3,7 +3,7 @@
 A modern GUI-based keyboard event monitoring system built using Python and Tkinter.  
 This application captures real-time key press and release events, logs them in structured formats, and provides a clean and responsive user interface.
 
-<p align="centre">
+<p align="center">
   <img src="UI.png" width="600"/>
 </p>
 ---

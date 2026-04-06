@@ -107,6 +107,7 @@ Due to operating system restrictions and design choices:
 ## 📁 Output Files
 
 ### key_log.txt
+[
 [Pressed:Shift_L] [Pressed:W] 
 [Released:W] [Released:Shift_L] 
 [Pressed:h] [Released:h] 
@@ -123,7 +124,7 @@ Due to operating system restrictions and design choices:
 [Released:f] [Pressed:i] [Released:i] 
 [Pressed:n] [Released:n] [Pressed:g] 
 [Released:g] [Pressed:Return] [Released:Return]
-
+]
 ### key_log.json
 Stores structured data with timestamps:
 

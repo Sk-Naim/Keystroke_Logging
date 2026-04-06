@@ -1,0 +1,13 @@
+# Logs
+logs/*.txt
+logs/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# macOS
+.DS_Store
